@@ -1,102 +1,96 @@
-    "github": "https://github.com/ahmedgamy212/rossmann-store-sales",
-    "datasetUrl": "",
-    "notes": "Complete the dataset, model, and evaluation details before publishing."
-  },
+[
   {
-    "id": "superstore",
-    "title": "Superstore Sales & Profitability",
+    "id": "olist-ecommerce",
+    "title": "Olist E-Commerce Analytics",
     "category": "Business Intelligence",
     "status": "Project",
-    "featured": false,
-    "summary": "A retail performance dashboard examining sales, profit, customer segments, and product-level profitability.",
-    "problem": "Understand which products and customer segments contribute to revenue and profit, and where discounting may reduce profitability.",
-    "dataset": "Superstore sample dataset. Add the exact source and usage terms.",
+    "featured": true,
+    "summary": "An end-to-end e-commerce analytics project focused on sales performance, customer behavior, and business insights.",
+    "problem": "Understand how orders, customers, products, and sellers contribute to marketplace performance.",
+    "dataset": "Olist Brazilian E-Commerce Public Dataset. Add the exact dataset link and any redistribution notes before publishing.",
+    "tools": [
+      "Power BI",
+      "SQL",
+      "DAX",
+      "Data Modeling"
+    ],
+    "methodology": [
+      "Data preparation and quality checks",
+      "Relational data modeling",
+      "SQL analysis",
+      "DAX measures and interactive reporting"
+    ],
+    "findings": [
+      "Add verified findings from your final report.",
+      "Document the business implications of the analysis."
+    ],
+    "cover": "assets/projects/olist-cover.svg",
+    "screenshots": [],
+    "pdf": "",
+    "pbix": "",
+    "interactive": "",
+    "github": "https://github.com/ahmedgamy212/brazilian-ecommerce-olist-analysis",
+    "datasetUrl": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
+    "notes": "Replace this text with the final project description and upload your own report files."
+  },
+  {
+    "id": "crm-sales-pipeline",
+    "title": "CRM Sales Pipeline Analysis",
+    "category": "Sales Analytics",
+    "status": "Project",
+    "featured": true,
+    "summary": "A sales pipeline analysis examining performance against targets, pipeline conversion, and gaps across sales teams.",
+    "problem": "Identify where sales performance is below target and make performance gaps easier to monitor.",
+    "dataset": "CRM sales dataset. Confirm whether the dataset can be shared publicly before uploading it.",
     "tools": [
       "Power BI",
       "DAX",
       "Data Visualization"
     ],
     "methodology": [
-      "Data quality checks",
-      "Sales and profit KPI design",
-      "Customer and product segmentation",
-      "Dashboard storytelling"
+      "Data cleaning and validation",
+      "KPI and target calculations",
+      "Sales representative and manager comparisons",
+      "Dashboard design"
     ],
     "findings": [
-      "Earlier analysis notes included approximately $11.49M sales, 2.5% profit margin, and discount levels above 40% associated with losses. Validate figures and definitions before publication."
+      "The draft analysis previously discussed a 10M sales figure and a 4M shortfall; verify these values against the final report before publishing."
     ],
-    "cover": "assets/projects/superstore-cover.svg",
+    "cover": "assets/projects/crm-cover.svg",
+    "screenshots": [],
+    "pdf": "",
+    "pbix": "",
+    "interactive": "",
+    "github": "https://github.com/ahmedgamy212/CRM-Sales-Opportunities",
+    "datasetUrl": "",
+    "notes": "Only publish numerical findings after checking the final dashboard and definitions."
+  },
+  {
+    "id": "hr-attrition",
+    "title": "HR Attrition Analysis",
+    "category": "People Analytics",
+    "status": "Project",
+    "featured": true,
+    "summary": "An HR analytics dashboard exploring employee attrition and potential relationships with employee satisfaction.",
+    "problem": "Help stakeholders understand employee turnover patterns and identify areas that may need further investigation.",
+    "dataset": "HR employee attrition dataset. Add the original source and license.",
+    "tools": [
+      "Power BI",
+      "Excel",
+      "Data Analysis"
+    ],
+    "methodology": [
+      "Data cleaning",
+      "Attrition rate analysis",
+      "Segmentation and comparisons",
+      "Interactive dashboard development"
+    ],
+    "findings": [
+      "Previously calculated figures included 14K+ employees, 76.19% stayed, and 23.81% left. Validate these against the final dataset before release."
+    ],
+    "cover": "assets/projects/hr-cover.svg",
     "screenshots": [],
     "pdf": "",
     "pbix": "",
     "interactive": "",
     "github": "",
-    "datasetUrl": "",
-    "notes": "Add verified screenshots and final dashboard files."
-  },
-  {
-    "id": "king-county-housing",
-    "title": "King County Housing Analytics & Investment Dashboard",
-    "category": "Business Intelligence",
-    "status": "Project",
-    "featured": false,
-    "summary": "Housing-market analytics and an investment-focused dashboard exploring property data and market patterns.",
-    "problem": "Explore housing data to support clearer comparisons and investment-oriented analysis.",
-    "dataset": "King County housing dataset. Confirm the exact source and license before publishing.",
-    "tools": [
-      "Power BI",
-      "Python",
-      "SQL",
-      "CatBoost"
-    ],
-    "methodology": [
-      "Data cleaning and exploratory analysis",
-      "Feature analysis and segmentation",
-      "Analytical modeling where applicable",
-      "Dashboard design and interpretation"
-    ],
-    "findings": [
-      "Add findings and model metrics from the final project. Do not publish unverified claims."
-    ],
-    "cover": "assets/projects/king-county-cover.svg",
-    "screenshots": [],
-    "pdf": "",
-    "pbix": "",
-    "interactive": "",
-    "github": "https://github.com/ahmedgamy212/kc_house_price",
-    "datasetUrl": "",
-    "notes": "Add the final repository, dashboard files, and verified findings."
-  },
-  {
-    "id": "house-price-prediction",
-    "title": "House Price Prediction & Analytics",
-    "category": "Machine Learning",
-    "status": "Project",
-    "featured": false,
-    "summary": "A Python-based housing analysis and price-prediction project using machine-learning techniques.",
-    "problem": "Investigate housing attributes and evaluate how well property prices can be estimated from available features.",
-    "dataset": "Specify the exact housing dataset, source, and license used in this project.",
-    "tools": [
-      "Python",
-      "XGBoost",
-      "Power BI"
-    ],
-    "methodology": [
-      "Data cleaning and exploratory analysis",
-      "Feature engineering and preparation",
-      "Model training and evaluation",
-      "Communicating results through analysis and visualization"
-    ],
-    "findings": [
-      "Add the measured evaluation metrics, validation approach, and verified findings from the final notebook."
-    ],
-    "cover": "assets/projects/house-price-cover.svg",
-    "screenshots": [],
-    "pdf": "",
-    "pbix": "",
-    "interactive": "",
-    "github": "https://github.com/ahmedgamy212/End-To-End-House-Price-Analytics",
-    "datasetUrl": "",
-    "notes": "Keep this project separate from the King County investment dashboard if they use different datasets or repositories."
-  }
-]
