@@ -132,7 +132,7 @@
     "notes": "Add the final repository, dashboard files, and verified findings."
   },
   {
-    "id": "house-price-prediction",
+    "id": "Sberbank Russian Housing Market",
     "title": "Sberbank Russian Housing Market",
     "category": "Machine Learning",
     "status": "Project",
@@ -157,7 +157,7 @@
     "cover": "assets/projects/house-price-cover.svg",
     "screenshots": [],
     "pdf": "",
-    "pbix": "",
+    "pbix": "https://github.com/ahmedgamy212/2.-Sberbank-Russian-Housing-Market/raw/refs/heads/master/Power%20BI/fike.pbix",
     "interactive": "",
     "github": "https://github.com/ahmedgamy212/2.-Sberbank-Russian-Housing-Market/tree/master",
     "datasetUrl": "https://www.kaggle.com/competitions/sberbank-russian-housing-market",
