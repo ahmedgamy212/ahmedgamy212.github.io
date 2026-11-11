@@ -27,7 +27,7 @@
     "cover": "assets/projects/olist-cover.svg",
     "screenshots": [],
     "pdf": "",
-    "pbix": "",
+    "pbix": "https://github.com/ahmedgamy212/brazilian-ecommerce-olist-analysis/raw/refs/heads/main/power%20bi/Olist.pbix?download=",
     "interactive": "",
     "github": "https://github.com/ahmedgamy212/brazilian-ecommerce-olist-analysis",
     "datasetUrl": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
@@ -59,43 +59,11 @@
     "cover": "assets/projects/crm-cover.svg",
     "screenshots": [],
     "pdf": "",
-    "pbix": "",
+    "pbix": "https://github.com/ahmedgamy212/CRM-Sales-Opportunities/raw/refs/heads/main/file.pbix",
     "interactive": "",
     "github": "https://github.com/ahmedgamy212/CRM-Sales-Opportunities",
-    "datasetUrl": "",
+    "datasetUrl": "https://mavenanalytics.io/data-playground/crm-sales-opportunities",
     "notes": "Only publish numerical findings after checking the final dashboard and definitions."
-  },
-  {
-    "id": "hr-attrition",
-    "title": "HR Attrition Analysis",
-    "category": "People Analytics",
-    "status": "Project",
-    "featured": true,
-    "summary": "An HR analytics dashboard exploring employee attrition and potential relationships with employee satisfaction.",
-    "problem": "Help stakeholders understand employee turnover patterns and identify areas that may need further investigation.",
-    "dataset": "HR employee attrition dataset. Add the original source and license.",
-    "tools": [
-      "Power BI",
-      "Excel",
-      "Data Analysis"
-    ],
-    "methodology": [
-      "Data cleaning",
-      "Attrition rate analysis",
-      "Segmentation and comparisons",
-      "Interactive dashboard development"
-    ],
-    "findings": [
-      "Previously calculated figures included 14K+ employees, 76.19% stayed, and 23.81% left. Validate these against the final dataset before release."
-    ],
-    "cover": "assets/projects/hr-cover.svg",
-    "screenshots": [],
-    "pdf": "",
-    "pbix": "",
-    "interactive": "",
-    "github": "",
-    "datasetUrl": "",
-    "notes": "Add verified report screenshots and final findings."
   },
   {
     "id": "store-sales-forecast",
@@ -124,43 +92,11 @@
     "cover": "assets/projects/forecast-cover.svg",
     "screenshots": [],
     "pdf": "",
-    "pbix": "",
+    "pbix": "https://github.com/ahmedgamy212/rossmann-store-sales/raw/refs/heads/main/Power%20BI/new.pbix",
     "interactive": "",
     "github": "https://github.com/ahmedgamy212/rossmann-store-sales",
-    "datasetUrl": "",
+    "datasetUrl": "https://www.kaggle.com/competitions/rossmann-store-sales",
     "notes": "Complete the dataset, model, and evaluation details before publishing."
-  },
-  {
-    "id": "superstore",
-    "title": "Superstore Sales & Profitability",
-    "category": "Business Intelligence",
-    "status": "Project",
-    "featured": false,
-    "summary": "A retail performance dashboard examining sales, profit, customer segments, and product-level profitability.",
-    "problem": "Understand which products and customer segments contribute to revenue and profit, and where discounting may reduce profitability.",
-    "dataset": "Superstore sample dataset. Add the exact source and usage terms.",
-    "tools": [
-      "Power BI",
-      "DAX",
-      "Data Visualization"
-    ],
-    "methodology": [
-      "Data quality checks",
-      "Sales and profit KPI design",
-      "Customer and product segmentation",
-      "Dashboard storytelling"
-    ],
-    "findings": [
-      "Earlier analysis notes included approximately $11.49M sales, 2.5% profit margin, and discount levels above 40% associated with losses. Validate figures and definitions before publication."
-    ],
-    "cover": "assets/projects/superstore-cover.svg",
-    "screenshots": [],
-    "pdf": "",
-    "pbix": "",
-    "interactive": "",
-    "github": "",
-    "datasetUrl": "",
-    "notes": "Add verified screenshots and final dashboard files."
   },
   {
     "id": "king-county-housing",
@@ -189,15 +125,15 @@
     "cover": "assets/projects/king-county-cover.svg",
     "screenshots": [],
     "pdf": "",
-    "pbix": "",
+    "pbix": "https://github.com/ahmedgamy212/kc_house_price/raw/refs/heads/main/Power%20BI/mysasa.pbix",
     "interactive": "",
     "github": "https://github.com/ahmedgamy212/kc_house_price",
-    "datasetUrl": "",
+    "datasetUrl": "https://www.kaggle.com/datasets/harlfoxem/housesalesprediction",
     "notes": "Add the final repository, dashboard files, and verified findings."
   },
   {
     "id": "house-price-prediction",
-    "title": "House Price Prediction & Analytics",
+    "title": "Sberbank Russian Housing Market",
     "category": "Machine Learning",
     "status": "Project",
     "featured": false,
@@ -223,8 +159,8 @@
     "pdf": "",
     "pbix": "",
     "interactive": "",
-    "github": "https://github.com/ahmedgamy212/End-To-End-House-Price-Analytics",
-    "datasetUrl": "",
+    "github": "https://github.com/ahmedgamy212/2.-Sberbank-Russian-Housing-Market/tree/master",
+    "datasetUrl": "https://www.kaggle.com/competitions/sberbank-russian-housing-market",
     "notes": "Keep this project separate from the King County investment dashboard if they use different datasets or repositories."
   }
 ]
