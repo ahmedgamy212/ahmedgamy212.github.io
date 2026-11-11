@@ -1,3 +1,4 @@
+
 [
   {
     "id": "olist-ecommerce",
@@ -5,33 +6,40 @@
     "category": "Business Intelligence",
     "status": "Project",
     "featured": true,
-    "summary": "An end-to-end e-commerce analytics project focused on sales performance, customer behavior, and business insights.",
-    "problem": "Understand how orders, customers, products, and sellers contribute to marketplace performance.",
-    "dataset": "Olist Brazilian E-Commerce Public Dataset. Add the exact dataset link and any redistribution notes before publishing.",
+    "summary": "An end-to-end Brazilian e-commerce analytics project using Python, SQL, and Power BI to analyze sales, customer behavior, delivery performance, and marketplace growth.",
+    "problem": "Understand how customers, orders, products, sellers, and delivery performance affect marketplace revenue and customer satisfaction.",
+    "dataset": "Olist Brazilian E-Commerce Public Dataset.",
     "tools": [
       "Power BI",
+      "Python",
       "SQL",
       "DAX",
       "Data Modeling"
     ],
     "methodology": [
       "Data preparation and quality checks",
+      "Exploratory data analysis and profiling",
       "Relational data modeling",
-      "SQL analysis",
-      "DAX measures and interactive reporting"
+      "SQL business analysis",
+      "DAX measures and dashboard development"
     ],
     "findings": [
-      "Add verified findings from your final report.",
-      "Document the business implications of the analysis."
+      "Analyzed approximately 96K orders and 93K customers.",
+      "Total product revenue reached approximately 13.22M, excluding freight.",
+      "The repeat customer rate was approximately 3%.",
+      "Average review scores declined from 4.3 to 1.7 for deliveries delayed by seven or more days.",
+      "São Paulo contributed approximately 39% of revenue.",
+      "The top 10 product categories generated approximately 62% of revenue.",
+      "Freight costs represented up to 28% of product price in remote states."
     ],
     "cover": "assets/projects/olist-cover.svg",
+    "screenshots": [],
     "github": "https://github.com/ahmedgamy212/brazilian-ecommerce-olist-analysis",
     "pdf": "",
     "pbix": "https://github.com/ahmedgamy212/brazilian-ecommerce-olist-analysis/raw/refs/heads/main/power%20bi/olist.pbix",
     "interactive": "",
-,
     "datasetUrl": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
-    "notes": "Replace this text with the final project description and upload your own report files."
+    "notes": "Includes Python notebooks, SQL scripts, data profiling reports, and the original Power BI report."
   },
   {
     "id": "crm-sales-pipeline",
@@ -39,31 +47,39 @@
     "category": "Sales Analytics",
     "status": "Project",
     "featured": true,
-    "summary": "A sales pipeline analysis examining performance against targets, pipeline conversion, and gaps across sales teams.",
-    "problem": "Identify where sales performance is below target and make performance gaps easier to monitor.",
-    "dataset": "CRM sales dataset. Confirm whether the dataset can be shared publicly before uploading it.",
+    "summary": "A sales performance analysis using SQL and Power BI to evaluate revenue against targets, identify performance gaps, and compare sales representatives and managers.",
+    "problem": "Identify why the sales team is missing its targets and highlight the managers and sales representatives contributing to the performance gap.",
+    "dataset": "CRM Sales Opportunities dataset.",
     "tools": [
+      "SQL",
       "Power BI",
       "DAX",
+      "Data Modeling",
       "Data Visualization"
     ],
     "methodology": [
-      "Data cleaning and validation",
+      "Data preparation using SQL",
+      "Star schema data modeling",
       "KPI and target calculations",
       "Sales representative and manager comparisons",
-      "Dashboard design"
+      "Dashboard development and performance analysis"
     ],
     "findings": [
-      "The draft analysis previously discussed a 10M sales figure and a 4M shortfall; verify these values against the final report before publishing."
+      "Total sales reached 10M, while the team finished 4M below target (-27.5%).",
+      "Every manager finished below target.",
+      "Dustin Brinkmann recorded the widest performance gap at -55%.",
+      "Only 4 of the top 10 salespeople achieved their targets.",
+      "Darcel Schlecht recorded the highest positive target gap at +40%.",
+      "Percentage-based target gaps provide fairer comparisons when sales targets differ."
     ],
     "cover": "assets/projects/crm-cover.svg",
     "screenshots": [],
+    "github": "https://github.com/ahmedgamy212/CRM-Sales-Opportunities",
     "pdf": "",
-    "pbix": "",
+    "pbix": "https://github.com/ahmedgamy212/CRM-Sales-Opportunities/raw/refs/heads/main/file.pbix",
     "interactive": "",
-    "github": "",
     "datasetUrl": "",
-    "notes": "Only publish numerical findings after checking the final dashboard and definitions."
+    "notes": "Includes SQL preparation scripts, a Power BI dashboard, and project documentation."
   },
   {
     "id": "hr-attrition",
@@ -71,22 +87,25 @@
     "category": "People Analytics",
     "status": "Project",
     "featured": true,
-    "summary": "An HR analytics dashboard exploring employee attrition and potential relationships with employee satisfaction.",
-    "problem": "Help stakeholders understand employee turnover patterns and identify areas that may need further investigation.",
-    "dataset": "HR employee attrition dataset. Add the original source and license.",
+    "summary": "An HR analytics dashboard exploring employee attrition, workforce distribution, and potential relationships between employee satisfaction and turnover.",
+    "problem": "Help stakeholders understand employee turnover patterns and identify areas that may require further investigation.",
+    "dataset": "HR Employee Attrition dataset. The original source and license should be documented.",
     "tools": [
       "Power BI",
       "Excel",
-      "Data Analysis"
+      "Data Analysis",
+      "Data Visualization"
     ],
     "methodology": [
-      "Data cleaning",
+      "Data cleaning and validation",
       "Attrition rate analysis",
-      "Segmentation and comparisons",
-      "Interactive dashboard development"
+      "Employee segmentation",
+      "Satisfaction and workforce comparisons",
+      "Dashboard design"
     ],
     "findings": [
-      "Previously calculated figures included 14K+ employees, 76.19% stayed, and 23.81% left. Validate these against the final dataset before release."
+      "The analysis explores employee retention, attrition, and satisfaction patterns.",
+      "Final numerical findings should be verified against the published dashboard."
     ],
     "cover": "assets/projects/hr-cover.svg",
     "screenshots": [],
@@ -95,40 +114,48 @@
     "interactive": "",
     "github": "",
     "datasetUrl": "",
-    "notes": "Add verified report screenshots and final findings."
+    "notes": "GitHub repository and downloadable report are not currently available."
   },
   {
     "id": "store-sales-forecast",
-    "title": "Store Sales Time Series Forecasting",
+    "title": "Rossmann Store Sales Forecasting",
     "category": "Forecasting",
     "status": "Project",
     "featured": false,
-    "summary": "A forecasting project focused on understanding historical sales patterns and producing data-driven forecasts.",
-    "problem": "Explore sales trends and build a forecasting approach that can support planning decisions.",
-    "dataset": "Add the dataset name, source, and license used in your final project.",
+    "summary": "An end-to-end retail sales forecasting project combining Python, SQL, machine learning, and Power BI to explore sales patterns and predict store-level performance.",
+    "problem": "Understand historical sales behavior and develop forecasting models that can support retail planning and decision-making.",
+    "dataset": "Rossmann Store Sales dataset.",
     "tools": [
       "Python",
       "Pandas",
-      "Matplotlib",
-      "Machine Learning"
+      "SQL",
+      "Scikit-learn",
+      "XGBoost",
+      "Power BI"
     ],
     "methodology": [
-      "Exploratory data analysis",
+      "Data preparation and exploratory analysis",
+      "Store metadata integration",
       "Time-based feature engineering",
-      "Model training and evaluation",
-      "Forecast interpretation"
+      "Promotion and holiday analysis",
+      "Chronological training and validation",
+      "Machine learning model development",
+      "Power BI reporting"
     ],
     "findings": [
-      "Add measured model results and business findings. Do not publish unverified accuracy claims."
+      "Analyzed historical store sales and promotion patterns.",
+      "Prepared time-based features for forecasting.",
+      "Developed and evaluated machine learning forecasting models.",
+      "Final model performance should be interpreted using the project's evaluation results."
     ],
     "cover": "assets/projects/forecast-cover.svg",
     "screenshots": [],
+    "github": "https://github.com/ahmedgamy212/rossmann-store-sales",
     "pdf": "",
-    "pbix": "",
+    "pbix": "https://github.com/ahmedgamy212/rossmann-store-sales/raw/refs/heads/main/Power%20BI/new.pbix",
     "interactive": "",
-    "github": "",
     "datasetUrl": "",
-    "notes": "Complete the dataset, model, and evaluation details before publishing."
+    "notes": "Includes Python notebooks, SQL analysis, trained models, prediction files, Power BI report, and dashboard screenshots."
   },
   {
     "id": "superstore",
@@ -136,22 +163,26 @@
     "category": "Business Intelligence",
     "status": "Project",
     "featured": false,
-    "summary": "A retail performance dashboard examining sales, profit, customer segments, and product-level profitability.",
-    "problem": "Understand which products and customer segments contribute to revenue and profit, and where discounting may reduce profitability.",
-    "dataset": "Superstore sample dataset. Add the exact source and usage terms.",
+    "summary": "A retail business intelligence dashboard analyzing sales, profitability, customer segments, and product performance.",
+    "problem": "Identify the products and customer segments driving revenue and profit, and understand where discounting may negatively affect profitability.",
+    "dataset": "Superstore sample dataset. The original source and usage terms should be documented.",
     "tools": [
       "Power BI",
       "DAX",
+      "Data Modeling",
       "Data Visualization"
     ],
     "methodology": [
       "Data quality checks",
-      "Sales and profit KPI design",
-      "Customer and product segmentation",
+      "Sales and profitability KPI development",
+      "Customer segmentation",
+      "Product and sub-category analysis",
+      "Discount impact analysis",
       "Dashboard storytelling"
     ],
     "findings": [
-      "Earlier analysis notes included approximately $11.49M sales, 2.5% profit margin, and discount levels above 40% associated with losses. Validate figures and definitions before publication."
+      "The analysis examines sales performance, profit margins, customer segments, and discount-related profitability.",
+      "Final numerical findings should be verified against the dashboard."
     ],
     "cover": "assets/projects/superstore-cover.svg",
     "screenshots": [],
@@ -160,7 +191,7 @@
     "interactive": "",
     "github": "",
     "datasetUrl": "",
-    "notes": "Add verified screenshots and final dashboard files."
+    "notes": "GitHub repository and downloadable report are not currently available."
   },
   {
     "id": "king-county-housing",
@@ -168,63 +199,83 @@
     "category": "Business Intelligence",
     "status": "Project",
     "featured": false,
-    "summary": "Housing-market analytics and an investment-focused dashboard exploring property data and market patterns.",
-    "problem": "Explore housing data to support clearer comparisons and investment-oriented analysis.",
-    "dataset": "King County housing dataset. Confirm the exact source and license before publishing.",
-    "tools": [
-      "Power BI",
-      "Python",
-      "SQL",
-      "CatBoost"
-    ],
-    "methodology": [
-      "Data cleaning and exploratory analysis",
-      "Feature analysis and segmentation",
-      "Analytical modeling where applicable",
-      "Dashboard design and interpretation"
-    ],
-    "findings": [
-      "Add findings and model metrics from the final project. Do not publish unverified claims."
-    ],
-    "cover": "assets/projects/king-county-cover.svg",
-    "screenshots": [],
-    "pdf": "",
-    "pbix": "",
-    "interactive": "",
-    "github": "",
-    "datasetUrl": "",
-    "notes": "Add the final repository, dashboard files, and verified findings."
-  },
-  {
-    "id": "house-price-prediction",
-    "title": "House Price Prediction & Analytics",
-    "category": "Machine Learning",
-    "status": "Project",
-    "featured": false,
-    "summary": "A Python-based housing analysis and price-prediction project using machine-learning techniques.",
-    "problem": "Investigate housing attributes and evaluate how well property prices can be estimated from available features.",
-    "dataset": "Specify the exact housing dataset, source, and license used in this project.",
+    "summary": "An end-to-end housing analytics and machine learning project using the King County House Sales dataset to explore property prices, market trends, and investment opportunities.",
+    "problem": "Analyze housing market characteristics, identify potential investment opportunities, and predict property prices using historical housing data.",
+    "dataset": "King County House Sales dataset.",
     "tools": [
       "Python",
+      "Pandas",
+      "NumPy",
+      "SQL Server",
+      "Scikit-learn",
       "XGBoost",
+      "CatBoost",
       "Power BI"
     ],
     "methodology": [
       "Data cleaning and exploratory analysis",
-      "Feature engineering and preparation",
-      "Model training and evaluation",
-      "Communicating results through analysis and visualization"
+      "Feature engineering",
+      "Housing market segmentation",
+      "Machine learning model training",
+      "Hyperparameter tuning and model evaluation",
+      "Investment opportunity analysis",
+      "Power BI dashboard development"
     ],
     "findings": [
-      "Add the measured evaluation metrics, validation approach, and verified findings from the final notebook."
+      "The project analyzes property prices, grades, conditions, and geographic patterns.",
+      "The investment analysis explores potential ROI opportunities and underpriced versus overpriced properties.",
+      "Model evaluation and numerical findings are documented in the project repository."
     ],
-    "cover": "assets/projects/house-price-cover.svg",
+    "cover": "assets/projects/king-county-cover.svg",
     "screenshots": [],
+    "github": "https://github.com/ahmedgamy212/kc_house_price",
     "pdf": "",
     "pbix": "",
     "interactive": "",
-    "github": "",
     "datasetUrl": "",
-    "notes": "Keep this project separate from the King County investment dashboard if they use different datasets or repositories."
+    "notes": "Includes Python notebook, SQL scripts, trained CatBoost and XGBoost models, and Power BI project documentation. The exact PBIX download path still needs verification."
+  },
+  {
+    "id": "house-price-prediction",
+    "title": "Ames House Price Prediction & Analytics",
+    "category": "Machine Learning",
+    "status": "Project",
+    "featured": false,
+    "summary": "An end-to-end housing price prediction project using the Ames Housing dataset, covering data preprocessing, exploratory analysis, feature engineering, and machine learning.",
+    "problem": "Investigate housing features and evaluate machine learning models for predicting residential property prices.",
+    "dataset": "Ames Housing dataset – House Prices: Advanced Regression Techniques.",
+    "tools": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn",
+      "XGBoost",
+      "Power BI"
+    ],
+    "methodology": [
+      "Data cleaning and preprocessing",
+      "Exploratory data analysis",
+      "Missing value treatment",
+      "Feature engineering and encoding",
+      "Machine learning model development",
+      "Model comparison and evaluation",
+      "Power BI visualization"
+    ],
+    "findings": [
+      "Linear Regression achieved an RMSE of 52,659 and an R-squared score of 0.638.",
+      "Random Forest achieved an RMSE of 29,331 and an R-squared score of 0.888.",
+      "XGBoost achieved an RMSE of 26,294 and an R-squared score of 0.910.",
+      "XGBoost achieved the best performance among the three evaluated models."
+    ],
+    "cover": "assets/projects/house-price-cover.svg",
+    "screenshots": [],
+    "github": "https://github.com/ahmedgamy212/End-To-End-House-Price-Analytics",
+    "pdf": "",
+    "pbix": "",
+    "interactive": "",
+    "datasetUrl": "",
+    "notes": "Uses the Ames Housing dataset and is separate from the King County housing project. The repository README describes a Power BI dashboard, but its exact downloadable file path has not yet been verified."
   }
 ]
