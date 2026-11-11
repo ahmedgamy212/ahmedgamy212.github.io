@@ -122,7 +122,7 @@
     "findings": [
       "Add findings and model metrics from the final project. Do not publish unverified claims."
     ],
-    "cover": "assets/projects/king-county-cover.svg",
+    "cover": "assets/projects/king.svg",
     "screenshots": [],
     "pdf": "",
     "pbix": "https://github.com/ahmedgamy212/kc_house_price/raw/refs/heads/main/Power%20BI/mysasa.pbix",
@@ -154,7 +154,7 @@
     "findings": [
       "Add the measured evaluation metrics, validation approach, and verified findings from the final notebook."
     ],
-    "cover": "assets/projects/house-price-cover.svg",
+    "cover": "assets/projects/Sberbank Russian Housing Market – 11 Nov 2026, 5.38 pm (1)-1.svg",
     "screenshots": [],
     "pdf": "",
     "pbix": "https://github.com/ahmedgamy212/2.-Sberbank-Russian-Housing-Market/raw/refs/heads/master/Power%20BI/fike.pbix",
