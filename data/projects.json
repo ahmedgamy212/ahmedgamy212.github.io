@@ -25,11 +25,11 @@
       "Document the business implications of the analysis."
     ],
     "cover": "assets/projects/olist-cover.svg",
-    "screenshots": [],
+    "github": "https://github.com/ahmedgamy212/brazilian-ecommerce-olist-analysis",
     "pdf": "",
-    "pbix": "",
+    "pbix": "https://github.com/ahmedgamy212/brazilian-ecommerce-olist-analysis/raw/refs/heads/main/power%20bi/olist.pbix",
     "interactive": "",
-    "github": "",
+,
     "datasetUrl": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
     "notes": "Replace this text with the final project description and upload your own report files."
   },
