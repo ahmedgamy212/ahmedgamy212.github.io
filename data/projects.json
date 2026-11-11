@@ -101,7 +101,7 @@
   {
     "id": "king-county-housing",
     "title": "King County Housing Analytics & Investment Dashboard",
-    "category": "Business Intelligence",
+    "category": "Machine Learning",
     "status": "Project",
     "featured": false,
     "summary": "Housing-market analytics and an investment-focused dashboard exploring property data and market patterns.",
