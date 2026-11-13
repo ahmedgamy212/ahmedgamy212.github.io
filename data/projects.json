@@ -24,7 +24,7 @@
       "Add verified findings from your final report.",
       "Document the business implications of the analysis."
     ],
-    "cover": "assets/projects/olist-cover.svg",
+    "cover": "assets/projects/Olist E-Commerce Analytics.svg",
     "screenshots": [],
     "pdf": "",
     "pbix": "https://github.com/ahmedgamy212/brazilian-ecommerce-olist-analysis/raw/refs/heads/main/power%20bi/Olist.pbix?download=",
@@ -122,7 +122,7 @@
     "findings": [
       "Add findings and model metrics from the final project. Do not publish unverified claims."
     ],
-    "cover": "assets/projects/kings.svg",
+    "cover": "assets/projects/King County Housing.SVG",
     "screenshots": [],
     "pdf": "",
     "pbix": "https://github.com/ahmedgamy212/kc_house_price/raw/refs/heads/main/Power%20BI/mysasa.pbix",
@@ -154,7 +154,7 @@
     "findings": [
       "Add the measured evaluation metrics, validation approach, and verified findings from the final notebook."
     ],
-    "cover": "assets/projects/Sberbank Russian Housing Market – 11 Nov 2026, 5.38 pm (1)-1.svg",
+    "cover": "assets/projects/Sberbank Russian Housing Market.svg",
     "screenshots": [],
     "pdf": "",
     "pbix": "https://github.com/ahmedgamy212/2.-Sberbank-Russian-Housing-Market/raw/refs/heads/master/Power%20BI/fike.pbix",
@@ -196,7 +196,7 @@
     "Explored monthly revenue and profit trends across brands and product colors.",
     "Compared online and offline business performance across stores."
   ],
-  "cover": "",
+  "cover": "assets/projects/Global Retail Insights.svg",
   "screenshots": [],
   "pdf": "",
   "pbix": "https://github.com/ahmedgamy212/global-retail-insights/raw/refs/heads/main/Power%20BI/CTE+Retail.pbix",
