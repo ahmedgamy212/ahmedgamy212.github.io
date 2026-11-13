@@ -162,5 +162,48 @@
     "github": "https://github.com/ahmedgamy212/2.-Sberbank-Russian-Housing-Market/tree/master",
     "datasetUrl": "https://www.kaggle.com/competitions/sberbank-russian-housing-market",
     "notes": "Keep this project separate from the King County investment dashboard if they use different datasets or repositories."
-  }
+  }و
+  
+{
+  "id": "global-retail-insights",
+  "title": "Global Retail Insights",
+  "category": "Business Intelligence",
+  "status": "Project",
+  "featured": false,
+  "summary": "A six-page retail analytics dashboard built with SQL, Excel, and Power BI to analyze sales performance, customer behavior, product profitability, and store operations.",
+  "problem": "Provide a comprehensive view of retail business performance by analyzing customer value, purchasing behavior, sales trends, product profitability, and geographical store performance.",
+  "dataset": "Retail sales and customer data. Raw customer datasets are not included in the public repository.",
+  "tools": [
+    "SQL",
+    "Excel",
+    "Power BI",
+    "DAX",
+    "Data Modeling"
+  ],
+  "methodology": [
+    "Data preparation and analysis using Excel",
+    "SQL querying and analytical operations",
+    "Data modeling and DAX measures in Power BI",
+    "RFM customer segmentation",
+    "Customer Lifetime Value analysis",
+    "Cohort analysis and customer churn analysis",
+    "Sales and product profitability analysis",
+    "Geographical and store performance analysis"
+  ],
+  "findings": [
+    "Evaluated customer retention through churn and repeat purchase metrics.",
+    "Analyzed customer value and purchasing behavior using RFM and CLV.",
+    "Compared product and subcategory profitability to identify top and underperforming products.",
+    "Explored monthly revenue and profit trends across brands and product colors.",
+    "Compared online and offline business performance across stores."
+  ],
+  "cover": "",
+  "screenshots": [],
+  "pdf": "",
+  "pbix": "https://github.com/ahmedgamy212/global-retail-insights/raw/refs/heads/main/Power%20BI/CTE+Retail.pbix",
+  "interactive": "",
+  "github": "https://github.com/ahmedgamy212/global-retail-insights",
+  "datasetUrl": "https://mavenanalytics.io/data-playground/global-electronics-retailer",
+  "notes": "Six-page Power BI dashboard. The public GitHub repository does not include the PBIX file, raw customer datasets, or dashboard screenshots."
+}
 ]
