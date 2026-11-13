@@ -162,8 +162,7 @@
     "github": "https://github.com/ahmedgamy212/2.-Sberbank-Russian-Housing-Market/tree/master",
     "datasetUrl": "https://www.kaggle.com/competitions/sberbank-russian-housing-market",
     "notes": "Keep this project separate from the King County investment dashboard if they use different datasets or repositories."
-  }و
-  
+  },
 {
   "id": "global-retail-insights",
   "title": "Global Retail Insights",
